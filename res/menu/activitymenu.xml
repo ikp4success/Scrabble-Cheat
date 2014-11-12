@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+  
+    <item
+        android:id="@+id/menu"
+        android:icon="@drawable/ics_threedot"
+        android:orderInCategory="0"
+        android:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/AD"
+                android:title="Instructions Info"
+                android:icon="@drawable/about"/>
+ 
+            <item
+                android:id="@+id/Exit23"
+                android:title="Exit"
+                android:icon="@drawable/exit"/>
+        </menu>
+    </item>
+ 
+   
+
+</menu>

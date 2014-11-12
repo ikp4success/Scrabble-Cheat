@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    
+
+    <com.viewpagerindicator.SwipeyTabsView
+        android:id="@+id/swipey_tabs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#3B3B3B" />
+
+    <View
+        android:id="@+id/colorline"
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:layout_below="@+id/swipey_tabs"
+        android:background="#FF91A438" />
+
+    <View
+        android:id="@+id/blackline"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_below="@+id/colorline"
+        android:background="#FF000000" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+android:id/viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.47"
+        android:background="#111" />
+
+
+</LinearLayout>

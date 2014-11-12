@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadingEdge="horizontal"
+    android:fillViewport="true"
+    android:scrollbars="horizontal" >
+
+    <AbsoluteLayout
+        android:id="@+id/olute_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/Cream"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/errorTV2"
+            android:layout_width="280dp"
+            android:layout_height="61dp"
+            android:layout_x="22dp"
+            android:layout_y="381dp"
+            android:textColor="@color/Android_Green" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"
+            android:layout_x="24dp"
+            android:layout_y="84dp"
+            android:ems="10"
+            android:hint="Letters go Here"
+            android:inputType="text"
+            android:maxLength="12"
+            android:maxLines="1" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="161dp"
+            android:layout_height="65dp"
+            android:layout_x="82dp"
+            android:layout_y="302dp"
+            android:text="Submit Letters" />
+
+        <EditText
+            android:id="@+id/startET2"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_x="10dp"
+            android:layout_y="190dp"
+            android:ems="10"
+            android:inputType="text"
+            android:maxLength="12"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="14dp"
+            android:layout_y="166dp"
+            android:text="Start With"
+            android:textColor="@color/HoloDark" />
+
+        <EditText
+            android:id="@+id/endET2"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_x="206dp"
+            android:layout_y="190dp"
+            android:ems="10"
+            android:inputType="text"
+            android:maxLength="12"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="214dp"
+            android:layout_y="166dp"
+            android:text="End With"
+            android:textColor="@color/HoloDark" />
+    </AbsoluteLayout>
+
+</ScrollView>
